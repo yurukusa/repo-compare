@@ -9,6 +9,10 @@
 <meta property="og:description" content="Compare two GitHub repositories side by side.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://yurukusa.github.io/repo-compare/">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebApplication", "name": "Repo Compare", "description": "Compare two GitHub repositories side by side. Stars, forks, issues, languages, commit activity, and more.", "url": "https://yurukusa.github.io/repo-compare/", "applicationCategory": "DeveloperApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "yurukusa", "url": "https://github.com/yurukusa"}}
+</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--text:#e6edf3;--text2:#8b949e;--accent:#58a6ff;--green:#3fb950;--red:#f85149;--yellow:#d29922;--purple:#bc8cff;--orange:#f0883e}
@@ -425,5 +429,13 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Enter' && (document.activeElement === $('repoA') || document.activeElement === $('repoB'))) compare();
 });
 </script>
+<footer style="text-align:center;padding:32px 16px;border-top:1px solid #1a1a1a;margin-top:40px;color:#555;font-size:0.78rem">
+<div style="margin-bottom:12px"><strong style="color:#888">Related Tools</strong></div>
+<a href="https://yurukusa.github.io/gh-stats/" style="color:#4da6ff;text-decoration:none;margin:0 8px">Gh Stats</a>
+<a href="https://yurukusa.github.io/npm-compare/" style="color:#4da6ff;text-decoration:none;margin:0 8px">npm Compare</a>
+<a href="https://yurukusa.github.io/gh-card/" style="color:#4da6ff;text-decoration:none;margin:0 8px">Gh Card</a>
+<a href="https://yurukusa.github.io/dep-tree/" style="color:#4da6ff;text-decoration:none;margin:0 8px">Dep Tree</a>
+<div style="margin-top:12px"><a href="https://yurukusa.github.io/dev-toolkit/" style="color:#666;text-decoration:none">Dev Toolkit — 101 free tools</a></div>
+</footer>
 </body>
 </html>
